@@ -1,0 +1,39 @@
+.power{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.ranger {
+    width: 40%;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#ranger-rojo {
+    background-color: red;
+}
+
+#ranger-azul {
+    background-color: blue;
+}
+
+#ranger-amarillo {
+    background-color: yellow;
+}
+
+#ranger-rosado {
+    background-color: pink;
+}
+
+#ranger-negro {
+    background-color: black;
+    color: white;
+}
+#ranger-verde {
+    background-color: green;
+    
+}

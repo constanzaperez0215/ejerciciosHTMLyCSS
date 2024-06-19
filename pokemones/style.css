@@ -1,0 +1,93 @@
+*{
+    margin: 5px;
+}
+.imgTitulo{
+    width: 300px;
+}
+
+.titulo{
+    height: 120px;
+    text-align: center;
+    background-color: rgb(211, 2, 2);
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contenedorPokemon{
+    width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.nombre{
+    text-align: center;
+}
+.img{
+    width: 250px;
+    display: flex;
+    align-self: center;
+}
+
+.tipoPokemon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#tipo{
+    width: 70px;
+    height: 25px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.planta{
+ background-color: rgba(53, 201, 53, 0.719);
+}
+.veneno{
+    background-color: rgba(159, 85, 228, 0.836);
+}
+
+.fuego{
+    background-color: rgba(248, 39, 39, 0.705);
+}
+.hielo{
+    background-color: aqua;
+}
+.volador{
+    background-color: aquamarine;
+}
+.psiquico{
+    background-color: rgb(210, 173, 245);
+}
+.tierra{
+    background-color: brown;
+}
+.roca{
+    background-color: grey;
+}
+.agua{
+    background-color: rgba(34, 129, 238, 0.801);
+}
+.electrico{
+    background-color: yellow;
+}
+.bicho{
+    background-color: greenyellow;
+}
+.acero{
+    background-color: rgb(184, 184, 184);
+}
+.hada{
+    background-color: pink;
+}
+
+
+.debilidad{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
